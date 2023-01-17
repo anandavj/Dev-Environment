@@ -31,4 +31,11 @@ Dev Environment Setup
 8. `pyenv install 3.xxxxxx` (see available list using `pyenv install --list`)
 9. `pyenv versions`
 10. `pyenv global 3.xxxxx`
+
+## Setup Node using [nvm](https://github.com/nvm-sh/nvm)
+1. `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+2. `export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"`
+3. `nvm install node`
+
 ## Setup [Virtualenv](https://pypi.org/project/virtualenv/)
