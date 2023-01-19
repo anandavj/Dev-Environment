@@ -38,4 +38,12 @@ Dev Environment Setup
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"`
 3. `nvm install node`
 
+## Setup Golang
+1. `curl -OL https://golang.org/dl/go1.18.10.linux-amd64.tar.gz`
+2. `sudo tar -C /usr/local -xvf go1.18.10.linux-amd64.tar.gz`
+3. `export GOROOT=/usr/local/go`
+4. `export GOPATH=$HOME/go`
+5. `export PATH=$GOPATH/bin:$GOROOT/bin:$PATH`
+6. `source ~/.bashrc`
+
 ## Setup [Virtualenv](https://pypi.org/project/virtualenv/)
