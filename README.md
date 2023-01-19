@@ -46,4 +46,7 @@ Dev Environment Setup
 5. `export PATH=$GOPATH/bin:$GOROOT/bin:$PATH`
 6. `source ~/.bashrc`
 
+## Setup docker compose
+1. `curl -SL https://github.com/docker/compose/releases/download/v2.15.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose`
+
 ## Setup [Virtualenv](https://pypi.org/project/virtualenv/)
